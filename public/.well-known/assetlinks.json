@@ -1,12 +1,8 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.extraai.app",
-      "sha256_cert_fingerprints": [
-        "REPLACE_WITH_SHA256_FROM_bubblewrap_fingerprint_list"
-      ]
-    }
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.vercel.extraai_six.twa",
+    "sha256_cert_fingerprints": ["A8:FC:A1:4C:46:BD:88:17:99:86:8D:66:EE:4C:4D:92:3B:BE:A6:F6"]
   }
-]
+}]
